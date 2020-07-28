@@ -148,6 +148,33 @@ navbar-brand img{
          
   }
 
+  .title-h3::before
+  {
+     content: '';
+     background: #0082c8;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(50px);
+         
+  }
+
+  .title-h3::after
+  {
+     content: '';
+     background: #0082c8;
+     height: 10px;
+     width: 50px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px ;
+     display: block;
+     transform: translateY(8px);
+         
+  }
+
   #services .btn-primary{
       box-shadow: none;
       padding: 8px 25px;
@@ -249,3 +276,18 @@ navbar-brand img{
  .social-icon a:hover img{
      transform: translateY(-10px );
  }
+ .abouth3 {
+    width: 100%;
+    background: #F5F3F3;
+    font-size: 18px;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 0px 10px 15px;
+    margin: 15px 0 15px 0px;
+}
+.boxer {
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    box-shadow: 0 0 8px #A8A6A6;
+    border-radius: 5px;
+}
