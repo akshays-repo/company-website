@@ -4,9 +4,11 @@
     padding: 0;
 }
 
-body
-{
+
+body{
     font-family:sans-serif;
+    
+    
 
 }
 #nav-bar{
@@ -113,10 +115,11 @@ navbar-brand img{
     margin-top: 25px;
     text-transform: uppercase;
 }
+/*
 .polaroid {
     width: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }  
+  } */  
   
   .title::before
   {
@@ -152,3 +155,39 @@ navbar-brand img{
       border-radius: 20px;
       background-image: linear-gradient(to left,#000046,#1CB5E0);
   }
+
+  /*------ABOUT US------*/
+
+  #about-us{
+      background: #EAF0F1;
+      padding-top: 50px;
+      padding-bottom: 50px;
+          
+  }
+
+  .about-title{
+       font-size: 40px;
+       font-weight: 600;
+       margin-top: 8%;
+  }
+ #about-us ul li{
+      margin: 10px 10px;
+ }
+
+ /*----client---------*/
+
+ .client{
+     border-left: 4px solid #0082c8;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ .client img{
+     height: 60px ;
+     width: 60px;
+     border-radius:50% ;
+     margin:0 10px ;
+ }
+ .user-details{
+     display: inline-block;
+     font-size:12px ;
+ }
