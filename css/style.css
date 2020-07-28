@@ -194,8 +194,10 @@ navbar-brand img{
 
  #footer{
     background-image: linear-gradient(to left,#000046,#1CB5E0);
-
-
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
 
  }
  .footer-box{
