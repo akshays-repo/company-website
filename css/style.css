@@ -191,3 +191,59 @@ navbar-brand img{
      display: inline-block;
      font-size:12px ;
  }
+
+ #footer{
+    background-image: linear-gradient(to left,#000046,#1CB5E0);
+
+
+
+ }
+ .footer-box{
+     padding: 20px;
+ }
+ .footer-box p{
+    color:#fff !important;
+    font-weight: 400;
+ }
+ .copyright p{
+     
+    color:#fff !important;
+    font-weight: 400;
+}
+.copyright{
+    margin-bottom: 0;
+}
+ hr{
+     background-color: #fff;
+ }
+ .header-color{
+    background-image: linear-gradient(to left, #667db6,#0082c8 ,#FFFFFF,#FFFFFF);
+
+ }
+ .header-color p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+ }
+
+ /*--------social media section*/
+
+ #socal-media
+ {
+    background-image: linear-gradient(to left, #667db6,#0082c8 ,#FFFFFF,#FFFFFF);
+      padding: 100px 0;
+ }
+ #socal-media p{
+     font-size: 36px;
+     font-weight: 600;
+     margin-bottom: 30px;
+ }
+ .social-icon img{
+     width: 60px ;
+     transition: 0.5s;
+ }
+ .social-icon a:hover img{
+     transform: translateY(-10px );
+ }
