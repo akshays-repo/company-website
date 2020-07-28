@@ -40,3 +40,21 @@ navbar-brand img{
 {
     outline: none !important;
 }
+/*---------------banner--------*/
+#banner
+{
+    background-image: linear-gradient(to left, #667db6,#0082c8 ,#FFFFFF,#FFFFFF);
+    color: rgb(0, 0, 0);
+    padding-top: 5% ;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+  }
