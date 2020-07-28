@@ -15,6 +15,12 @@
     <title>strokxtech</title>
 </head>
 <body>
+  <div class="loader">
+    <img src="./image/Pulse-1s-200px.svg" alt="Loading..." />
+  </div>
+
+
+
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img src="./image/logo/STROKX.png"></a>
@@ -119,28 +125,11 @@
         </div> 
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    
 </body>
+<script>
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script>
 </html>
