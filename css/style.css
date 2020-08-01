@@ -144,9 +144,37 @@ navbar-brand img{
      margin-right: auto;
      margin-bottom: 40px ;
      display: block;
+     transform: translateY(5px);
+         
+  }
+
+  .titles::before
+  {
+     content: '';
+     background: #0082c8;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(60px);
+         
+  }
+
+  .titles::after
+  {
+     content: '';
+     background: #0082c8;
+     height: 10px;
+     width: 50px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px ;
+     display: block;
      transform: translateY(8px);
          
   }
+
 
   .title-h3::before
   {
@@ -158,6 +186,33 @@ navbar-brand img{
      margin-right: auto;
      display: block;
      transform: translateY(52px);
+         
+  }
+
+  .title-work::after
+  {
+     content: '';
+     background: #0082c8;
+     height: 10px;
+     width: 50px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px ;
+     display: block;
+     transform: translateY(8px);
+         
+  }
+
+  .title-work::before
+  {
+     content: '';
+     background: #0082c8;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(50px);
          
   }
 
@@ -301,38 +356,33 @@ navbar-brand img{
     border-radius: 5px;
 }
 
-/*-----dropdown------*/
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
+/*------work-----*/
+
+.work-image1{
+    width: 70%;
+    height: auto;
     position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    top: -10px;
+}
+
+#work
+{
+    background-image: linear-gradient(to left, #667db6,#0082c8 ,#FFFFFF,#FFFFFF);
+    color: rgb(0, 0, 0);
+    padding-top: 5% ;
+}
+.work-header p {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.work-header h3{
+    font-size: 25px;
+    color: #6f7a82;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-family: 'Krona One', sans-serif;
+}
+
