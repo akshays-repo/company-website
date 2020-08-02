@@ -115,6 +115,13 @@ navbar-brand img{
     margin-top: 25px;
     text-transform: uppercase;
 }
+
+.services p{
+    font-size: 16px;
+    color: #4f5e69;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
 /*
 .polaroid {
     width: 25px;
@@ -387,6 +394,12 @@ navbar-brand img{
     margin-bottom: 25px;
     font-weight: 300;
     }
-
+ .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,#000046,#1CB5E0);
+}
 
 
