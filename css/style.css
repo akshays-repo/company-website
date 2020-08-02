@@ -340,6 +340,27 @@ navbar-brand img{
 
 /*------work-----*/
 
+#banner h1{
+   
+        display: inline-block;
+        position: relative;
+        font-size: 40px;
+        color: #5e707d;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-family: "Montserrat",sans-serif;
+    
+}
+
+#banner p{
+    
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 15px;
+
+    
+}
+
 .title-work h1::after
   {
      content: '';
