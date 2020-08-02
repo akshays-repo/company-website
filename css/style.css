@@ -402,4 +402,8 @@ navbar-brand img{
     background-image: linear-gradient(to left,#000046,#1CB5E0);
 }
 
-
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
