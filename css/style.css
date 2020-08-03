@@ -428,3 +428,9 @@ navbar-brand img{
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+.footer-box {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
