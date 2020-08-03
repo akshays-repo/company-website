@@ -256,6 +256,7 @@ navbar-brand img{
      border-left: 4px solid #0082c8;
      margin-top: 50px;
      margin-bottom: 50px;
+     background: #EAF0F1;
  }
  .client img{
      height: 60px ;
@@ -476,18 +477,28 @@ navbar-brand img{
 
 /*----whats new---*/
 
-.whats-new h3 {
-    margin-bottom: 0;
-    border-bottom: 0;
-    border-right: 1px solid #ebebeb;
-    padding: 3px 20px 3px 0;
-    position: absolute;
-    left: 15px;
-    top: 0;
-    font-size: 25px !important;
+
+.user-details{
+    display: inline-block;
+    font-size:12px ;
 }
 
-.whats-new p {
-    line-height: normal;
-    margin-bottom: 0;
+.whatsnew h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    color: #5e707d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+.whatsnew h2:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 55px;
+    height: 3px;
+    background: #00aeef;
+    content: '';
 }
