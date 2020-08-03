@@ -96,6 +96,14 @@ navbar-brand img{
   }
 
 
+#banner-index{
+    background-image: linear-gradient(to left, #667db6,#0082c8 ,#FFFFFF,#FFFFFF);
+    color: rgb(0, 0, 0);
+    padding-top: 5% ;
+}
+
+
+
 /*-------services-----*/
 #services
 {
@@ -365,6 +373,27 @@ navbar-brand img{
     
 }
 
+#banner-index h1{
+        display: inline-block;
+        position: relative;
+        font-size: 40px;
+        color: black;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-family: "Montserrat",sans-serif;
+}
+.promo-title h1{
+   
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: "Montserrat",sans-serif;
+
+}
+
 #banner p{
     
         font-size: 15px;
@@ -372,6 +401,13 @@ navbar-brand img{
         margin-bottom: 15px;
 
     
+}
+
+#banner-index p{
+    font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 15px;
+
 }
 
 .title-work h1::after
