@@ -122,6 +122,18 @@ navbar-brand img{
     margin-bottom: 25px;
     font-weight: 300;
 }
+#services h3{
+    font-size: 25px;
+    color: #6f7a82;
+    margin-bottom: 15px;
+    font-weight: 100;
+    }
+#services h6 {
+    font-size: 16px;
+    color: #4f5e69;
+    margin-bottom: 25px;
+    font-weight: 300;
+    }
 /*
 .polaroid {
     width: 25px;
