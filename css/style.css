@@ -502,3 +502,7 @@ navbar-brand img{
     background: #00aeef;
     content: '';
 }
+
+.whatsnew p{
+    color: #5e707d;
+}
