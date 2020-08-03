@@ -434,3 +434,29 @@ navbar-brand img{
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+
+/*------home about */
+#banner-home {
+    padding-top: 5% ;
+}
+
+#banner-home h2{
+   
+    font-size: 20px;
+    color: #5e707d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+#banner-home p{
+
+    font-size: 15px;
+    color: #5e707d;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+
+}
